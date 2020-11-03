@@ -1,0 +1,4 @@
+//Vamos a ignorar todos los assets
+*.svg
+*.jpg
+*.png
