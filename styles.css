@@ -79,9 +79,9 @@ header .header__logo {
     padding: 1.2rem 0 1.6rem;
     border-radius: 4.5px;
     background-color: var(--off-white);
-    margin: 0 auto;
-    position: relative;
-    top: 45px;
+    left: calc(50% - 114.5px);
+    position: absolute;
+    top: calc(100% - 24px);
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
     /* Sombra */
     font-weight: bold;
@@ -91,4 +91,48 @@ header .header__logo {
 .header__content .header__button span img {
     position: relative;
     top: 2px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding: 80px 0 30px;
+    text-align: center;
+}
+
+.main-exchange-container .background-img {
+    width: 195px;
+    height: 195px;
+    margin: 0 auto 4rem;
+    background: url(/assets/img/bitcoin.svg) no-repeat center/cover;
+    
+}
+
+.main-exchange-container__title {
+    width: 90%;
+    min-width: 228px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-exchange-container__title h2 {
+    margin-bottom: 2.4rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+.main-exchange-container__title p {
+    margin-bottom: 3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
 }
