@@ -19,11 +19,17 @@
 html {
     font-size: 62.5%;
     font-family: "DM-Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
     color: initial;
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 header {
@@ -274,7 +280,7 @@ main {
     min-width: 288px;
     max-width: 400px;
     height: auto;
-    max-height: 150px;
+    min-height: 150px;
     padding: 1.8rem;
     margin: 0 auto 1.6rem;
     background-color: var(--off-black);
@@ -296,4 +302,23 @@ main {
     line-height: 1.8rem;
     color: #808080;
     margin-top: 1rem;
+}
+
+.main-image-container {
+    position: relative;
+    background: url(./assets/img/bitcoinbaby4x.jpg) no-repeat center/cover;
+    width: 100%;
+    min-width: 320px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-image-container p {
+    position: absolute;
+    top: 6.4rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: #fff;
 }
