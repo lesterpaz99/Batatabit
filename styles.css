@@ -356,18 +356,24 @@ main {
 }
 
 .plans-container__slider {
-    width: 100%;
+    display: flex;
+    align-items: center; /*EXPERIMENTAL*/
+    height: 280px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 
 .plans-container__card {
     position: relative;
+    scroll-snap-align: center;
     background: var(--just-white);
     min-width: 190px;
     max-width: 300px;
     width: 60vw;
     min-height: 247px;
     padding: 0 18px 24px;
-    margin: 5rem auto 0; /* RECORDAR PONERLO DE VUELTA EN 0 AUTO*/
+    margin: 0 8px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
     display: flex;
@@ -480,7 +486,6 @@ footer {
     min-width: 320px;
     background-color: var(--bitcoin-orange);
     height: 150px;
-    margin-top: 6.4rem; /*ESTE ESPACIO DEBE SER PADDING EN EL SLIDER*/
     display: flex;
     justify-content: space-evenly; 
     align-items: center;
