@@ -308,6 +308,7 @@ main {
 .main-image-container {
     position: relative;
     background: url(./assets/img/bitcoinbaby4x.jpg) no-repeat center/cover;
+    background-attachment: fixed;
     width: 100%;
     min-width: 320px;
     height: 70vh;

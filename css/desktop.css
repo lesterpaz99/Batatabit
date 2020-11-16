@@ -1,0 +1,39 @@
+.header__logo {
+    transform: scale(1.8);
+}
+.header__content h1 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+.header__content p {
+    font-size: 1.6rem;
+}
+.header__button {
+    transform: scale(1.3);
+}
+h2 {
+    font-size: 2.5rem;
+}
+.plans-container__slider {
+    overflow: hidden;
+}
+.main-image-container p {
+    font-size: 3.5rem;
+}
+
+footer {
+    justify-content: space-between;
+}
+footer div {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+footer ul li a {
+    font-size: 1.6rem;
+}
+footer figure {
+    position: relative;
+    top: 40px;
+    right: 25px;
+    transform: scale(1.1);
+}
