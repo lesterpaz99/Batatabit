@@ -117,7 +117,7 @@ main {
     width: 195px;
     height: 195px;
     margin: 0 auto 4rem;
-    background: url(/assets/img/bitcoin.svg) no-repeat center/cover;
+    background: url(./assets/img/bitcoin.svg) no-repeat center/cover;
     
 }
 
