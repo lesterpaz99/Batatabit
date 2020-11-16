@@ -14,6 +14,9 @@
 h2 {
     font-size: 2.5rem;
 }
+.main-product-detail span {
+    transform: scale(1.2);
+}
 .plans-container__slider {
     overflow: hidden;
 }
